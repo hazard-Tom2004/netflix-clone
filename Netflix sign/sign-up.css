@@ -1,0 +1,231 @@
+body {
+    background-color: black;
+}
+
+#main {
+    position: absolute;
+    bottom: 20px;
+
+}
+
+#container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img1 {
+    height: 1000px;
+    width: 1340px;
+    opacity: 0.5;
+}
+
+#img2 {
+    position: relative;
+    top: 55px;
+    margin-right: 1300px;
+    margin-left: 40px;
+    /* margin-top: 50px; */
+    width: 170px;
+    height: 150px;
+}
+
+form {
+    padding: 10px;
+    height: 600px;
+    width: 400px;
+    margin-left: 450px;
+    background-color: black;
+    opacity: 0.85;
+}
+
+#box1 {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.397);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#box2 {
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.397);
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+
+#a1 {
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(231, 16, 16, 0.966);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#a1>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* #checkbox {
+    color:white;
+    margin-right: 10px;
+} */
+
+input {
+    color: white;
+    border: 1px solid white;
+
+}
+
+
+#checkbox1 {
+    color: white;
+    margin-right:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#a2 {
+    color: blue;
+    text-decoration: none;
+}
+
+#a2:hover {
+    text-decoration: underline;
+}
+
+
+#link1 {
+    color: white;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: px solid red
+}
+
+
+#link1:hover {
+    text-decoration: underline;
+}
+
+
+#link2 {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#link2:hover {
+    text-decoration: underline;
+}
+
+#textx {
+    color: rgb(167, 166, 166);
+    margin-top: 80px;
+    margin-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* #a3 {
+    color: white
+    fo
+}  */
+
+#textbox {
+    color: rgb(167, 166, 166);
+    margin-left: 50px;
+    text-align: left;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 300px;
+    font-weight: light;
+}
+
+footer {
+    background-color: black;
+    opacity: 0.85;
+    width: 1338px;
+    margin-top: 80px;
+    padding-top: 40px;
+    height: 200px;
+}
+
+#head1 {
+    color: white;
+    margin-right: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+
+
+#lists > #a3 {
+    padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: right;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top:40px;
+    color: rgb(167, 166, 166);
+} 
+
+#lists > #a3:hover {
+    text-decoration: underline;
+}
+
+#lists {
+    display: flex;
+    flex-flow: row wrap;
+    height:150px;
+    margin-left: 137px;
+    height: 80px;
+}
+
+
+#list1 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 137px;
+    height: 50px;
+}
+
+#list1 > #a4 {
+    padding-right: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+#list1 > #a4:hover {
+    text-decoration: underline;
+}
+
